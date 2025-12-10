@@ -18,7 +18,7 @@
   a:visited {
     color: #faa700;
   }
-  
+
   h1, h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
@@ -29,16 +29,16 @@
     font-size: 50px;
     letter-spacing: -2px;
     line-height: 50px;
-    margin: 0 0 20px 0;
+    margin: 15px 0 30px 0;
     color: #9fef00;
   }
   
   h2 {
     font-size: 32px;
     color: #88cd08;
-    letter-spacing: -0.72px;
+    letter-spacing: -1px;
     line-height: 43px;
-    margin: 55px 0 4px -1.8px;
+    margin: 30px 0 4px -1.8px;
     text-align: justify;
     text-decoration: underline;
   }
@@ -48,8 +48,8 @@
     font-family: "Merriweather";
     color: #c6c8cb;
     font-size: 26px;
-    letter-spacing: -0.1px;
-    line-height: 31px;
+    letter-spacing: -1px;
+    line-height: 28px;
     margin: 0 0 30px 0;
     text-align: justify;
   }
@@ -122,7 +122,13 @@
   }
   
   .margin-top-2 {
-      margin-top: 30px;
+      margin-top: 35px;
+  }
+
+  .destaque{ 
+    color: #9fef00;
+    font-size: 28px;
+    font-style: italic;
   }
   
   /**
@@ -143,6 +149,7 @@
   
     p {
       font-size: 20px;
+      line-height: 26px;
     }
 
     .divider {
@@ -155,6 +162,10 @@
       height: 170px;
       margin: 25px 0;
     }
+
+   .destaque{ 
+    font-size: 22px;
+  }
   
   
   }
